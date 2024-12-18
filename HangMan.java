@@ -162,7 +162,11 @@ public class HangMan {
     {
         wrongGuess++;
     }
-    
+
+    /**
+    @param String letter
+    replaces underline with letter if correct guess
+    */
     public void underlineCorrect(String letter)
     {
         this.letter = letter;
